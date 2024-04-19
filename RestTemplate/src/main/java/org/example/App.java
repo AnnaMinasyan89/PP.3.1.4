@@ -11,6 +11,7 @@ public class App {
 
     public static void main( String[] args ) {
 
+
         RestTemplate restTemplate = new RestTemplate();
 
         ResponseEntity<String> responseEntity = restTemplate.getForEntity(REST_URL, String.class);
